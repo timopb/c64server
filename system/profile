@@ -1,0 +1,12 @@
+#### Minimal Profile ###
+
+# Fix ^H input for backspace on C64
+stty erase ^h
+
+# Set default edtior to line based editor ed
+export EDITOR=ed
+
+# simplify prompt
+export PS1='$w\$ '
+
+echo
